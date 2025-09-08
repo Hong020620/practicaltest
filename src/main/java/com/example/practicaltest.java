@@ -2,8 +2,8 @@ package com.example;
 
 public class PracticalTest {
 
-    public static int add(int num1, int num2) {
-        return num1 + num2;
+    public static int add(int numX, int numY) {
+        return numX + numY;
     }
 
     public static int multiply(int num1, int num2) {
