@@ -1,4 +1,4 @@
-//this is good
+
 apply plugin: 'java'
 apply plugin:'jacoco'
 jacoco {
@@ -20,12 +20,11 @@ dependencies {
 }
 
 test {
-    // Specify the directory containing test classes
+  
     testClassesDirs = sourceSets.test.output.classesDirs
 
-    // Optionally configure test options
     testLogging {
-        // Configure which events to log during test execution
+
         events 'passed', 'skipped', 'failed'
     }
     finalizedBy jacocoTestReport
