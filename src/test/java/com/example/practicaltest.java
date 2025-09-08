@@ -3,8 +3,9 @@ package com.example;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-public class MainTest {
+public class practicaltest {
 
+   
     @Test
     public void testAdd() {
         assertEquals(9, Main.add(4, 5));
