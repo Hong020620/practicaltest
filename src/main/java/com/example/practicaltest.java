@@ -1,6 +1,6 @@
 package com.example;
 
-public class PracticalTest {
+public class practicaltest {
 
     public static int add(int numX, int numY) {
         return numX + numY;
